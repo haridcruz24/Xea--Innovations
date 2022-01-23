@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stroke</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+ <body>
+
+  <nav class="stroke">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Courses</a></li>
+      <li><a href="#">More</a></li>
+    </ul>
+ </nav>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="grid-1 callout primary">
+            <head>
+                <style>
+                #div1 {
+                  width: 350px;
+                  height: 70px;
+                  padding: 10px;
+                  border: 1px solid #aaaaaa;
+                
+                  
+                }
+                </style>
+                <script>
+                function allowDrop(ev) {
+                  ev.preventDefault();
+                }
+                
+                function drag(ev) {
+                  ev.dataTransfer.setData("text", ev.target.id);
+                }
+                
+                function drop(ev) {
+                  ev.preventDefault();
+                  var data = ev.dataTransfer.getData("text");
+                  ev.target.appendChild(document.getElementById(data));
+                }
+                </script>
+                </head>
+                <body>
+                   
+                <p>Hearing</p>
+                
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <br>
+                <img id="drag1" src="C:\Users\Asus\Desktop\My Project\Images\ear.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                
+                </body>
+        </div>
+      
+        <div class="grid-2 callout warning">
+            <head>
+                <style>
+                #div2 {
+                  width: 350px;
+                  height: 70px;
+                  padding: 10px;
+                  border: 1px solid #aaaaaa;
+                
+                  
+                }
+                </style>
+                <script>
+                function allowDrop(ev) {
+                  ev.preventDefault();
+                }
+                
+                function drag(ev) {
+                  ev.dataTransfer.setData("text", ev.target.id);
+                }
+                
+                function drop(ev) {
+                  ev.preventDefault();
+                  var data = ev.dataTransfer.getData("text");
+                  ev.target.appendChild(document.getElementById(data));
+                }
+                </script>
+                </head>
+                <body>
+                   
+                <p>Sight</p>
+                
+                <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <br>
+                <img id="drag2" src="C:\Users\Asus\Desktop\My Project\Images\eye.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                
+                </body>
+        </div>
+      
+        <div class="grid-3 callout alert">
+            <head>
+                <style>
+                #div3 {
+                  width: 350px;
+                  height: 70px;
+                  padding: 10px;
+                  border: 1px solid #aaaaaa;
+                
+                  
+                }
+                </style>
+                <script>
+                function allowDrop(ev) {
+                  ev.preventDefault();
+                }
+                
+                function drag(ev) {
+                  ev.dataTransfer.setData("text", ev.target.id);
+                }
+                
+                function drop(ev) {
+                  ev.preventDefault();
+                  var data = ev.dataTransfer.getData("text");
+                  ev.target.appendChild(document.getElementById(data));
+                }
+                </script>
+                </head>
+                <body>
+                   
+                <p>Touch</p>
+                
+                <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <br>
+                <img id="drag3" src="C:\Users\Asus\Desktop\My Project\Images\hand.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                
+                </body>
+        </div>
+      
+        <div class="grid-4 callout success">
+            <head>
+                <style>
+                #div4 {
+                  width: 350px;
+                  height: 70px;
+                  padding: 10px;
+                  border: 1px solid #aaaaaa;
+                
+                  
+                }
+                </style>
+                <script>
+                function allowDrop(ev) {
+                  ev.preventDefault();
+                }
+                
+                function drag(ev) {
+                  ev.dataTransfer.setData("text", ev.target.id);
+                }
+                
+                function drop(ev) {
+                  ev.preventDefault();
+                  var data = ev.dataTransfer.getData("text");
+                  ev.target.appendChild(document.getElementById(data));
+                }
+                </script>
+                </head>
+                <body>
+                   
+                <p>Taste</p>
+                
+                <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <br>
+                <img id="drag4" src="C:\Users\Asus\Desktop\My Project\Images\tongue.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                
+                </body>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="grid-1 callout primary">
+            <head>
+                <style>
+                #div5 {
+                  width: 350px;
+                  height: 70px;
+                  padding: 10px;
+                  border: 1px solid #aaaaaa;
+                
+                  
+                }
+                </style>
+                <script>
+                function allowDrop(ev) {
+                  ev.preventDefault();
+                }
+                
+                function drag(ev) {
+                  ev.dataTransfer.setData("text", ev.target.id);
+                }
+                
+                function drop(ev) {
+                  ev.preventDefault();
+                  var data = ev.dataTransfer.getData("text");
+                  ev.target.appendChild(document.getElementById(data));
+                }
+                </script>
+                </head>
+                <body>
+                   
+                <p>Smell</p>
+                
+                <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <br>
+                <img id="drag5" src="C:\Users\Asus\Desktop\My Project\Images\nose.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                
+                </body>
+        </div>
+
+</html>
